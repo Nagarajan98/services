@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nagarajan C - Marketing Consulting Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .smooth-scroll {
+            scroll-behavior: smooth;
+        }
+        .hover-scale {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .hover-scale:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #14b8a6, #f87171);
+        }
+        .ebook-cta {
+            background: linear-gradient(90deg, #f87171, #facc15);
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+        .ebook-cta:hover {
+            background: linear-gradient(90deg, #facc15, #f87171);
+            transform: scale(1.05);
+            box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
+        }
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50 smooth-scroll">
+    <!-- Header -->
+    <header class="gradient-bg text-white text-center py-16">
+        <h1 class="text-4xl md:text-5xl font-bold mb-3">Nagarajan C</h1>
+        <p class="text-lg md:text-xl mb-4">B2B Marketing Consultant | Driving Growth for SaaS, FinTech, HR Tech & Manufacturing</p>
+        <p class="text-sm">nagarajanchokkalingam15@gmail.com | Chennai, India</p>
+        <p class="text-sm"><a href="https://wa.me/918072822617?text=Hi%20Nagarajan,%20I’m%20interested%20in%20your%20B2B%20marketing%20services!" target="_blank" class="text-yellow-300 hover:text-yellow-100">WhatsApp Me</a></p>
+        <a href="https://linkedin.com/in/nagarajanchokkalingam" target="_blank" class="text-yellow-300 hover:text-yellow-100 mt-2 inline-block">LinkedIn Profile</a>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="bg-teal-700 text-white py-4 sticky top-0 z-10 shadow-lg">
+        <div class="container mx-auto flex justify-center space-x-4 md:space-x-8">
+            <a href="#about" class="hover:text-yellow-300 font-semibold">About</a>
+            <div class="dropdown relative">
+                <a href="#services" class="hover:text-yellow-300 font-semibold">Services</a>
+                <div class="dropdown-menu hidden absolute bg-teal-700 text-white mt-2 rounded-lg shadow-lg">
+                    <a href="#abm" class="block px-4 py-2 hover:bg-teal-600">Account Based Marketing</a>
+                    <a href="#lead-generation" class="block px-4 py-2 hover:bg-teal-600">Lead Generation Consulting</a>
+                    <a href="#digital-strategy" class="block px-4 py-2 hover:bg-teal-600">Digital Marketing & Strategy</a>
+                    <a href="#ads" class="block px-4 py-2 hover:bg-teal-600">Google Ads & LinkedIn Ads</a>
+                </div>
+            </div>
+            <a href="#experience" class="hover:text-yellow-300 font-semibold">Experience</a>
+            <a href="#projects" class="hover:text-yellow-300 font-semibold">Projects</a>
+            <a href="#skills" class="hover:text-yellow-300 font-semibold">Skills</a>
+            <a href="#contact" class="hover:text-yellow-300 font-semibold">Contact</a>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-teal-700 mb-6 text-center">About Me</h2>
+            <p class="text-lg text-gray-700 max-w-3xl mx-auto">As a seasoned B2B Marketing Consultant with over 3 years of experience, I empower SaaS, FinTech, HR Tech, and Manufacturing businesses to achieve exponential growth through tailored strategies. Specializing in Account Based Marketing, lead generation, and digital campaigns, I’ve driven 35% lead growth and 20% conversion uplifts for clients. Let’s collaborate to transform your marketing into a revenue-driving powerhouse.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-12 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-teal-700 mb-6 text-center">My Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-teal-50 p-6 rounded-lg shadow-md hover-scale border-l-4 border-teal-500">
+                    <h3 class="text-xl font-semibold text-coral-600">Account Based Marketing (ABM)</h3>
+                    <p class="text-gray-700">Target high-value accounts with personalized campaigns to maximize ROI. <a href="#abm" class="text-coral-600 hover:text-coral-800">Learn More</a></p>
+                </div>
+                <div class="bg-coral-50 p-6 rounded-lg shadow-md hover-scale border-l-4 border-coral-500">
+                    <h3 class="text-xl font-semibold text-coral-600">Lead Generation Consulting</h3>
+                    <p class="text-gray-700">Build robust pipelines with strategies that attract and nurture qualified leads. <a href="#lead-generation" class="text-coral-600 hover:text-coral-800">Learn More</a></p>
+                </div>
+                <div class="bg-yellow-50 p-6 rounded-lg shadow-md hover-scale border-l-4 border-yellow-500">
+                    <h3 class="text-xl font-semibold text-coral-600">Digital Marketing & Strategy Consulting</h3>
+                    <p class="text-gray-700">Craft comprehensive GTM plans and optimize digital channels for growth. <a href="#digital-strategy" class="text-coral-600 hover:text-coral-800">Learn More</a></p>
+                </div>
+                <div class="bg-teal-50 p-6 rounded-lg shadow-md hover-scale border-l-4 border-teal-500">
+                    <h3 class="text-xl font-semibold text-coral-600">Google Ads & LinkedIn Ads</h3>
+                    <p class="text-gray-700">Drive targeted B2B campaigns to reach decision-makers effectively. <a href="#ads" class="text-coral-600 hover:text-coral-800">Learn More</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABM Service Details -->
+    <section id="abm" class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-teal-700 mb-6 text-center">Account Based Marketing (ABM)</h2>
+            <p class="text-lg text-gray-700 max-w-3xl mx-auto mb-6">Target high-value accounts with precision using personalized ABM strategies to drive conversions and revenue growth for SaaS, FinTech, HR Tech, and Manufacturing businesses.</p>
+            <a href="https://wa.me/918072822617?text=Hi%20Nagarajan,%20I’d%20like%20to%20receive%20your%20ABM%20E-book!" target="_blank" class="mb-6 ebook-cta text-white px-8 py-4 rounded-xl font-bold hover-scale inline-block">Download Free ABM E-book</a>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-teal-50 p-6 rounded-lg shadow-md hover-scale">
+                    <h3 class="text-xl font-semibold text-coral-600">Personalized Campaigns</h3>
+                    <p class="text-gray-700">Leverage tools like Clay.com and HubSpot to create tailored content for key accounts, ensuring higher engagement.</p>
+                </div>
+                <div class="bg-coral-50 p-6 rounded-lg shadow-md hover-scale">
+                    <h3 class="text-xl font-semibold text-coral-600">Data-Driven Targeting</h3>
+                    <p class="text-gray-700">Use intent data and account scoring to focus on high-potential prospects, maximizing ROI.</p>
+                </div>
+                <div class="bg-yellow-50 p-6 rounded-lg shadow-md hover-scale">
+                    <h3 class="text-xl font-semibold text-coral-600">Cross-Channel Execution</h3>
+                    <p class="text-gray-700">Integrate LinkedIn Ads, email, and landing pages for a cohesive ABM strategy.</p>
+                </div>
+                <div class="bg-teal-50 p-6 rounded-lg shadow-md hover-scale">
+                    <h3 class="text-xl font-semibold text-coral-600">Proven Results</h3>
+                    <p class="text-gray-700">Achieved 35% lead growth for a SaaS client through targeted ABM campaigns.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lead Generation Consulting Details -->
+    <section id="lead-generation" class="py-12 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-teal-700 mb-6 text-center">Lead Generation Consulting</h2>
+            <p class="text-lg text-gray-700 max-w-3xl mx-auto mb-6">Build robust pipelines with strategies that attract and nurture qualified leads for SaaS, FinTech, HR Tech, and Manufacturing sectors.</p>
+            <a href="https://wa.me/918072822617?text=Hi%20Nagarajan,%20I’d%20like%20to%20receive%20your%20Lead%20Generation%20E-book!" target="_blank" class="mb-6 ebook-cta text-white px-8 py-4 rounded-xl font-bold hover-scale inline-block">Download Free Lead Gen E-book</a>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-teal-50 p-6 rounded-lg shadow-md hover-scale">
+                    <h3 class="text-xl font-semibold text-coral-600">Funnel Optimization</h3>
+                    <p class="text-gray-700">Streamline lead nurturing with Zoho Campaigns and HubSpot, improving conversion rates.</p>
+                </div>
+                <div class="bg-coral-50 p-6 rounded-lg shadow-md hover-scale">
+                    <h3 class="text-xl font-semibold text-coral-600">Targeted Outreach</h3>
+                    <p class="text-gray-700">Leverage Clay.com for precise lead targeting, ensuring high-quality prospects.</p>
+                </div>
+                <div class="bg-yellow-50 p-6 rounded-lg shadow-md hover-scale">
+                    <h3 class="text-xl font-semibold text-coral-600">Multi-Channel Strategies</h3>
+                    <p class="text-gray-700">Combine email, ads, and landing pages to drive consistent lead flow.</p>
+                </div>
+                <div class="bg-teal-50 p-6 rounded-lg shadow-md hover-scale">
+                    <h3 class="text-xl font-semibold text-coral-600">Measurable Impact</h3>
+                    <p class="text-gray-700">Increased lead quality by 20% for a Manufacturing client through drip campaigns.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Digital Marketing & Strategy Consulting Details -->
+    <section id="digital-strategy" class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-teal-700 mb-6 text-center">Digital Marketing & Strategy Consulting</h2>
+            <p class="text-lg text-gray-700 max-w-3xl mx-auto mb-6">Develop comprehensive GTM plans and optimize digital channels to drive growth for SaaS, FinTech, HR Tech, and Manufacturing businesses.</p>
+            <a href="https://wa.me/918072822617?text=Hi%20Nagarajan,%20I’d%20like%20to%20receive%20your%20SEO%20E-book!" target="_blank" class="mb-6 ebook-cta text-white px-8 py-4 rounded-xl font-bold hover-scale inline-block">Download Free SEO E-book</a>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-teal-50 p-6 rounded-lg shadow-md hover-scale">
+                    <h3 class="text-xl font-semibold text-coral-600">Custom GTM Plans</h3>
+                    <p class="text-gray-700">Tailor strategies to your business goals using Ahrefs and Screaming Frog for insights.</p>
+                </div>
+                <div class="bg-coral-50 p-6 rounded-lg shadow-md hover-scale">
+                    <h3 class="text-xl font-semibold text-coral-600">Channel Optimization</h3>
+                    <p class="text-gray-700">Enhance SEO, SEM, and social campaigns for maximum reach and ROI.</p>
+                </div>
+                <div class="bg-yellow-50 p-6 rounded-lg shadow-md hover-scale">
+                    <h3 class="text-xl font-semibold text-coral-600">Data-Driven Insights</h3>
+                    <p class="text-gray-700">Leverage Google Analytics for actionable campaign adjustments.</p>
+                </div>
+                <div class="bg-teal-50 p-6 rounded-lg shadow-md hover-scale">
+                    <h3 class="text-xl font-semibold text-coral-600">Proven Success</h3>
+                    <p class="text-gray-700">Reduced cost per lead by 15% for a FinTech client through strategic overhaul.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Ads & LinkedIn Ads Details -->
+    <section id="ads" class="py-12 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-teal-700 mb-6 text-center">Google Ads & LinkedIn Ads</h2>
+            <p class="text-lg text-gray-700 max-w-3xl mx-auto mb-6">Drive targeted B2B campaigns to reach decision-makers in SaaS, FinTech, HR Tech, and Manufacturing sectors with optimized ad strategies.</p>
+            <a href="https://wa.me/918072822617?text=Hi%20Nagarajan,%20I’d%20like%20to%20receive%20your%20Email%20Marketing%20E-book!" target="_blank" class="mb-6 ebook-cta text-white px-8 py-4 rounded-xl font-bold hover-scale inline-block">Download Free Email Marketing E-book</a>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-teal-50 p-6 rounded-lg shadow-md hover-scale">
+                    <h3 class="text-xl font-semibold text-coral-600">Precision Targeting</h3>
+                    <p class="text-gray-700">Use LinkedIn’s audience tools and Google Ads for hyper-targeted campaigns.</p>
+                </div>
+                <div class="bg-coral-50 p-6 rounded-lg shadow-md hover-scale">
+                    <h3 class="text-xl font-semibold text-coral-600">Ad Optimization</h3>
+                    <p class="text-gray-700">Improve ROI with A/B testing and real-time analytics.</p>
+                </div>
+                <div class="bg-yellow-50 p-6 rounded-lg shadow-md hover-scale">
+                    <h3 class="text-xl font-semibold text-coral-600">Cross-Platform Expertise</h3>
+                    <p class="text-gray-700">Seamlessly integrate Google and LinkedIn Ads for maximum reach.</p>
+                </div>
+                <div class="bg-teal-50 p-6 rounded-lg shadow-md hover-scale">
+                    <h3 class="text-xl font-semibold text-coral-600">Proven Results</h3>
+                    <p class="text-gray-700">Achieved 20% conversion uplift for a SaaS client through targeted ads.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-teal-700 mb-6 text-center">Experience</h2>
+            <div class="space-y-8">
+                <div class="bg-white p-6 rounded-lg shadow-md hover-scale border-l-4 border-teal-500">
+                    <h3 class="text-xl font-semibold text-coral-600">Digital Marketing Manager - Sharoff Steel Suppliers, Chennai</h3>
+                    <p class="text-gray-600">Oct 2022 - Present</p>
+                    <ul class="list-disc ml-6 mt-2 text-gray-700">
+                        <li>Led GTM strategies with ABM and drip marketing, boosting qualified leads by 35%.</li>
+                        <li>Optimized Google Ads and Meta Ads campaigns, achieving 20% higher conversions.</li>
+                        <li>Developed SEO-optimized landing pages using HTML, CSS, and JavaScript.</li>
+                        <li>Collaborated with sales to align messaging with buyer personas.</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover-scale border-l-4 border-coral-500">
+                    <h3 class="text-xl font-semibold text-coral-600">Email Marketing Specialist - Vintorix Private Limited, Chennai</h3>
+                    <p class="text-gray-600">Nov 2021 - June 2022</p>
+                    <ul class="list-disc ml-6 mt-2 text-gray-700">
+                        <li>Created targeted email campaigns, driving 25% higher engagement.</li>
+                        <li>Managed email servers for 98% deliverability.</li>
+                        <li>Designed A/B testing frameworks, improving open rates by 18%.</li>
+                        <li>Integrated HubSpot and Brevo for automated workflows, reducing manual efforts by 30%.</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover-scale border-l-4 border-yellow-500">
+                    <h3 class="text-xl font-semibold text-coral-600">Digital Marketing Intern - Yemi Foundation, Kangayam</h3>
+                    <p class="text-gray-600">Sep 2020 - Oct 2020</p>
+                    <ul class="list-disc ml-6 mt-2 text-gray-700">
+                        <li>Authored content, increasing website insights by 20%.</li>
+                        <li>Designed social media assets, boosting user attention by 30%.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-12 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-teal-700 mb-6 text-center">Projects & Case Studies</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-teal-50 p-6 rounded-lg shadow-md hover-scale border-l-4 border-teal-500">
+                    <h3 class="text-xl font-semibold text-coral-600">SaaS Lead Generation Campaign</h3>
+                    <p class="text-gray-700">Implemented ABM and LinkedIn Ads for a SaaS client, increasing qualified leads by 35%.</p>
+                </div>
+                <div class="bg-coral-50 p-6 rounded-lg shadow-md hover-scale border-l-4 border-coral-500">
+                    <h3 class="text-xl font-semibold text-coral-600">Content Marketing Strategy for SaaS</h3>
+                    <p class="text-gray-700">Developed blog posts and email nurture flows, boosting engagement by 25%.</p>
+                </div>
+                <div class="bg-yellow-50 p-6 rounded-lg shadow-md hover-scale border-l-4 border-yellow-500">
+                    <h3 class="text-xl font-semibold text-coral-600">FinTech Digital Marketing Overhaul</h3>
+                    <p class="text-gray-700">Optimized SEO and ads, reducing cost per lead by 15%.</p>
+                </div>
+                <div class="bg-teal-50 p-6 rounded-lg shadow-md hover-scale border-l-4 border-teal-500">
+                    <h3 class="text-xl font-semibold text-coral-600">Manufacturing Sector GTM Plan</h3>
+                    <p class="text-gray-700">Crafted strategy with drip marketing, improving lead quality by 20%.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-teal-700 mb-6 text-center">Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="bg-teal-100 p-4 rounded-lg shadow-md text-center hover-scale">Account Based Marketing</div>
+                <div class="bg-coral-100 p-4 rounded-lg shadow-md text-center hover-scale">Lead Generation</div>
+                <div class="bg-yellow-100 p-4 rounded-lg shadow-md text-center hover-scale">Lead Nurturing</div>
+                <div class="bg-teal-100 p-4 rounded-lg shadow-md text-center hover-scale">Technical SEO</div>
+                <div class="bg-coral-100 p-4 rounded-lg shadow-md text-center hover-scale">SEO</div>
+                <div class="bg-yellow-100 p-4 rounded-lg shadow-md text-center hover-scale">Google Ads</div>
+                <div class="bg-teal-100 p-4 rounded-lg shadow-md text-center hover-scale">LinkedIn Ads</div>
+                <div class="bg-coral-100 p-4 rounded-lg shadow-md text-center hover-scale">Clay.com</div>
+                <div class="bg-yellow-100 p-4 rounded-lg shadow-md text-center hover-scale">HubSpot</div>
+                <div class="bg-teal-100 p-4 rounded-lg shadow-md text-center hover-scale">Zoho Campaigns</div>
+                <div class="bg-coral-100 p-4 rounded-lg shadow-md text-center hover-scale">Ahrefs</div>
+                <div class="bg-yellow-100 p-4 rounded-lg shadow-md text-center hover-scale">Screaming Frog</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-12 bg-gray-100">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-teal-700 mb-6">Get in Touch</h2>
+            <p class="text-lg text-gray-700 mb-4">Ready to skyrocket your B2B marketing? Let’s discuss how I can drive growth for your business!</p>
+            <p class="text-gray-700">Email: <a href="mailto:nagarajanchokkalingam15@gmail.com" class="text-coral-600 hover:text-coral-800">nagarajanchokkalingam15@gmail.com</a></p>
+            <p class="text-gray-700"><a href="https://wa.me/918072822617?text=Hi%20Nagarajan,%20I’m%20interested%20in%20your%20B2B%20marketing%20services!" target="_blank" class="text-coral-600 hover:text-coral-800">WhatsApp Me</a></p>
+            <p class="text-gray-700">LinkedIn: <a href="https://linkedin.com/in/nagarajanchokkalingam" target="_blank" class="text-coral-600 hover:text-coral-800">NagarajanChokkalingam</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="gradient-bg text-white text-center py-4">
+        <p>&copy; 2025 Nagarajan C. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript for Smooth Scroll -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
